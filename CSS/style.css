@@ -1,0 +1,815 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.back-img{
+  background-image: linear-gradient(90deg, rgba(10,104,110,1) 0%, rgba(10,104,110,0.28343837535014005) 0%) ,url("../images/bg_1.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo h2{
+  color: white;
+  font-family: "Patrick Hand", cursive;
+}
+
+.logo span{
+  color: #D49A3A;
+  font-family: "Patrick Hand", cursive;
+}
+
+.logo p{
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+
+.menu{
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.menu a i{
+  font-size: 16px !important;
+  color: white;
+}
+
+.menu a{
+  font-size: 16px;
+  color: white;
+}
+
+.navigation-div{
+  background-color: #282214;
+}
+
+.nav-link li{
+  color: white;
+  font-family: "Patrick Hand", cursive;
+}
+
+.navbar-toggler{
+  border: none !important;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+#hoverLogo:hover{
+  color: black;
+  transition: .5s;
+}
+
+#hoverLogo{
+  font-weight: 600;
+}
+
+.text{
+  text-align: center;
+  margin-top: 130px;
+}
+
+.text h1{
+  font-family: "Patrick Hand", cursive;
+  color: white;
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+.text p{
+  font-family: Poppins, Arial, sans-serif;
+  color: white;
+}
+
+.joinbtn{
+  padding: 17px 0;
+  width: 100%;
+  background-color: #D49A3A;
+}
+
+form label{
+  color: #D49A3A;
+  font-size: 14px;
+}
+
+.form-div{
+  background-color: #39311D;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+form input, form select{
+  background-color: #282214 !important;
+  border: none !important;
+  color: #C7C5BF !important;
+}
+
+input::placeholder{
+  color: #C7C5BF !important;
+} 
+
+.donatebtnform{
+  background-color: #D49A3A;
+  color: white;
+}
+
+.form-div p{
+  color: #D49A3A;
+  font-size: 14px;
+}
+
+.form-div h2{
+  font-family: "Patrick Hand", cursive;
+  color: white;
+}
+
+.form-top{
+  background-color: #0A686E;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-top i{
+  font-size: 61px;
+  padding-right: 24px;
+  color: #D49A3A;
+}
+
+.form-top2 p{
+  color:#D49A3A;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-top2 h2{
+  font-family: "Patrick Hand", cursive;
+  color: white;
+}
+
+.welcome span{
+  color:#D49A3A;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.welcome h2{
+  padding-top: 10px;
+  color: #282214;
+  font-family: "Patrick Hand", cursive;
+  font-size: 40px;
+  line-height: 56px;
+}
+
+.welcome p{
+  color: #666666;
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #D49A3A;
+  text-align: center;
+}
+
+.icon i{
+  font-size: 32px;
+  margin-top: 21px;
+  color: white;
+}
+
+.circle-icon p{
+  font-family: "Patrick Hand", cursive;
+  color: #282214;
+}
+
+.welcome-section, .do-care-backcolor, .blog-backcolor{
+  background-color: #F3F0EB;
+}
+
+.bg-div{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.stat-back-img{
+  background-image: linear-gradient(90deg, rgba(31,72,68,1) 0%, rgba(31,72,68,0.6867997198879552) 0%) ,url("../images/bg_3.jpg") ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cards-inner{
+  color: white;
+  background: linear-gradient(90deg, rgba(31,72,68,1) 0%, rgba(31,72,68,0.8128501400560224) 0%);
+  border-radius: 10px;
+}
+
+.cards i{
+  font-size: 50px;
+  padding: 27px 0;
+}
+
+.cards h3{
+  font-family: "Patrick Hand", cursive;
+}
+
+.cards p{
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.stat-back-img h2{
+  font-size: 31px;
+  padding-top: 35px;
+  font-family: "Patrick Hand", cursive;
+  color:white;
+}
+
+.stat-back-img p{
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  line-height: 29px;
+}
+
+.causes-backcolor{
+  background-color: #F3F0EB;
+}
+
+.para-causes, .para-blog{
+  color: #D49A3A;
+  font-weight: 600;
+  line-height: 29px;
+  font-size: 20px;
+}
+
+.h2-causes, .h2-blog{
+  font-size: 35px;
+  font-family: "Patrick Hand", cursive;
+  color: #282214;
+}
+
+.text-causes h4{
+  font-family: "Patrick Hand", cursive;
+  color: #282214;
+  font-size: 27px;
+}
+
+.text-causes p{
+  color: #666666;
+  line-height: 29px;
+  font-size: 18px;
+}
+
+.text-causes{
+  background-color: #E9E4DB;
+}
+
+.progress-bar{
+  background-color: #0A686E;
+}
+
+.raised-para, .goal-para{
+  color: #666666;
+  font-size: 17px;
+}
+
+.raised-span{
+  color: black;
+  font-weight: 600;
+}
+
+.goal-span{
+  color: #0A686E;
+  font-weight: 600;
+}
+
+.goal-causes{
+  background-color: #E0D8CB;
+}
+
+.progress-bar-cause{
+  position: relative;
+}
+
+.progress-bar-cause span:after {
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3px 2px 0 2px;
+  border-color: #0a686e transparent transparent transparent;
+}
+
+.progress-bar-cause span{
+ background-color: #0A686E;
+ color: white;
+ padding: 2px;
+ position: absolute;
+ left: 146.5px;
+ top: -4px;
+}
+
+.text-causes span{
+  background-color: #D49A3A;
+  color: white;
+  padding: 7px 23px;
+  position: absolute;
+  top: -19px;
+  left: 75px;
+}
+
+.text-causes{
+  position: relative;
+}
+
+.goal-causes:hover{
+  background-color: #D49A3A;
+}
+
+.lovecare-div-bg{
+  background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6643907563025211) 0%), url("../images/bg_2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.charity-div span{
+   color: white;
+   font-weight: 700;
+   font-size: 16px;
+}
+
+.charity-div h2{
+  color: white;
+  font-size: 31px;
+  font-family: "Patrick Hand", cursive;
+}
+
+.btndonate{
+  background-color: #D49A3A;
+  color: white;
+  font-weight: 600;
+}
+
+.btnvol{
+  background-color: #0A686E;
+  color: white;
+  font-weight: 600;
+}
+
+.vol-div-inner span{
+  color:#D49A3A;
+  font-weight: 600;
+}
+
+.vol-div-inner h2{
+  font-family: "Patrick Hand", cursive;
+  font-size: 30px;
+}
+
+.img-div img{
+  width: 200px;
+  height: 200px;
+  border: 8px solid #F3F0EB;
+}
+
+.text-div-back span{
+  font-size: 20px;
+}
+
+.text-div-back h3{
+  font-size: 25px;
+}
+
+.text-div-back p i{
+  font-size: 23px;
+  color: #D49A3A;
+}
+
+.para-text{
+  line-height: 29px;
+  color:#666666;
+  font-size: 17px;
+}
+
+.text-div-back{
+  background-color: white;
+}
+
+.vol-div{
+  background-color: #F3F0EB;
+}
+
+.main-div-text{
+  position: relative;
+}
+
+.img-div{
+  position: absolute;
+  top: -102px;
+  left: 34px;
+}
+
+.text-div-back:hover{
+  background-color: #0A686E;
+  color: white;
+}
+
+.para-text:hover{
+  color: white;
+}
+
+.text-div-blog h3:hover{
+  color: #D49A3A;
+}
+
+.img-div-card-box img{
+  height: 100px;
+  width: 100px;
+}
+
+.backimg-card-box{
+  background-image: linear-gradient(90deg, rgba(31,72,68,1) 0%, rgba(31,72,68,0.6867997198879552) 0%) , url("../images/bg_4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-box{
+  background-color: white;
+  border-radius: 7px;
+}
+
+.testimonial-div p{
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.testimonial-div h2{
+  font-family: "Patrick Hand", cursive;
+  color: white;
+  font-size: 32px;
+}
+
+.card-box-div-text h4{
+  color: #D49A3A;
+}
+
+.card-box-inner span{
+  color: #666666;
+}
+
+.text-div-about span{
+  color: #D49A3A;
+  font-weight: 700;
+}
+
+.text-div-about h2{
+  color:#282214;
+  font-family: "Patrick Hand", cursive;
+  font-size: 35px;
+}
+
+.text-div-about p{
+  line-height: 29px;
+  color:#666666;
+}
+
+.text-div-about button, .read-button{
+  background-color: #0A686E;
+  color: white;
+}
+
+.text-div-blog h3{
+  font-family: "Patrick Hand", cursive;
+}
+
+.text-div-blog p{
+  font-size: 17px;
+  line-height: 29px;
+  color:#666666;
+}
+
+.text-div-blog{
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blog-div-img img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blog-inner-div{
+  position: relative;
+}
+
+.position-blog-div{
+  background-color: #F3F0EB;
+  border-radius: 10px;
+  position: absolute;
+  top: 151px;
+}
+
+.position-blog-div p{
+  color:#D49A3A;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.position-blog-div span{
+  color: #666666;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer-back-color{
+  background-color: #042628;
+}
+
+.footer-para-icon{
+  color: #D49A3A;
+  font-size: 25px;
+}
+
+.calender-footer{
+  color: #b4bebf;
+}
+
+.fa-map, .fa-phone, .fa-telegram{
+  color: #b4bebf;
+}
+
+.copyright-footer{
+  background-color: #053336;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+  border-radius: 0px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #D49A3A;
+}
+
+@media(min-width: 768px){
+  .back-img{
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .text{
+    text-align: left;
+  }
+
+  .text h1{
+    font-size: 58px;
+  }
+
+  .joinbtn{
+    padding: 17px 0;
+    width: 20%;
+  }
+
+  .img-div{
+    left: 66px;
+  }
+
+  .icon i{
+    margin-top: 32px;
+  }
+
+  .card-box-bg-color-md{
+    background-color: #D49A3A;
+    color: white;
+  }
+
+  .card-box-bg-color-md span,  .card-box-bg-color-md h4{
+    color: white;
+  }
+  
+  .progress-bar-cause span{
+   left: 195.5px;
+  }
+  
+  .text-causes span{
+    left: 115px;
+  }
+
+  .watchbtn{
+    width: 20%;
+    padding: 17px 0;
+  }
+
+  .stat-back-img p{
+    font-size: 18px;
+  }
+
+  .stat-back-img h2 {
+    font-size: 51px;
+  }
+
+  .para-causes{
+    font-size: 22px;
+  }
+
+  .h2-causes, .h2-blog{
+    font-size: 40px;
+  }
+
+  .btnvol{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .position-blog-div{
+    top: 187px;
+  }
+  
+}
+
+@media(min-width: 992px){
+  .navigation-div{
+    background-color: transparent;
+  }
+
+  .text{
+    margin-top: 60px;
+    width: 50%;
+  }
+
+  .img-div{
+    left: 9px;
+  }
+
+  .card-box-bg-color-md{
+    background-color: white;
+  }
+
+  .card-box-bg-color-md span{
+    color:#666666;
+  }
+
+  .card-box-bg-color-md h4{
+    color: #D49A3A;
+  }
+
+  .card-box-bg-color-lg{
+    background-color: #D49A3A;
+    color: white;
+  }
+
+  .card-box-bg-color-lg span,  .card-box-bg-color-lg h4{
+    color: white;
+  }
+
+  .progress-bar-cause span{
+    left: 169.5px;
+   }
+   
+   .text-causes span{
+     left: 84px;
+   }
+
+   .joinbtn, .watchbtn{
+    width: 50%;
+   }
+
+   .charity-div h2{
+    font-size: 44px;
+   }
+
+   .position-blog-div{
+    top: 159px;
+  }
+   
+}
+
+@media(min-width: 1440px){
+  .img-div{
+    left: 53px;
+  }
+
+  .back-img{
+    height: 98vh;
+  }
+
+  .text{
+    margin-top: 102px;
+  }
+
+  .progress-bar-cause span{
+    left: 254.5px;
+   }
+   
+   .text-causes span{
+     left: 154px;
+   }
+
+   .text p {
+    font-size: 25px;
+  }
+
+  .text h1{
+    font-size: 67px;
+  }
+
+  .joinbtn, .watchbtn{
+    padding: 20px 0;
+    width: 35%;
+    font-size: 21px;
+  }
+
+  .stat-back-img p{
+    font-size: 20px;
+  }
+
+  .stat-back-img h2 {
+    font-size: 64px;
+  }
+
+  .para-causes, .para-blog{
+    font-size: 26px;
+  }
+
+  .h2-causes, .vol-div-inner h2, .testimonial-div h2, .text-div-about h2, .h2-blog{
+    font-size: 48px;
+  }
+
+  .vol-div-inner span, .testimonial-div p, .text-div-about span{
+    font-size: 20px;
+  }
+
+  .text-div-about p{
+    font-size: 18px;
+  }
+
+  .position-blog-div{
+    top: 252px;
+    left: 26px;
+  }
+  
+}
+
+@media(min-width:2560px){
+  .back-img{
+    height: 98vh;
+  }
+
+  .text{
+    margin-top: 442px;
+    width: 75%;
+  }
+
+  .text h1{
+    font-size: 101px;
+  }
+
+  .text p {
+    font-size: 25px;
+  }
+
+  .joinbtn, .watchbtn{
+    padding: 25px 0;
+    width: 43%;
+    font-size: 25px;
+  }
+
+  .h2-causes, .charity-div h2, .vol-div-inner h2, .testimonial-div h2, .text-div-about h2, .h2-blog{
+    font-size: 70px;
+  }
+
+  .charity-div span{
+    font-size: 23px;
+  }
+  
+}

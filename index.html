@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lovecare</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./CSS/style.css" />
+
+</head>
+
+<body>
+  <section class="" id="home">
+    <div class="back-img">
+
+      <section class="container-lg px-0">
+        <div class="navigation-div">
+          <nav class="navbar navbar-expand-lg justify-content-between">
+            <div class="logo ps-2 pt-2">
+              <h2 class="my-auto" id="hoverLogo">LOVE<span>CARE</span></h2>
+              <p>CHARITY THEME</p>
+            </div>
+            <div class="menu d-lg-none">
+              <a href="" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarnav">
+                <i class="fa-solid fa-bars fs-1"></i> MENU</a>
+            </div>
+
+            <div class=" navbar-collapse collapse" id="navbarnav">
+              <ul class="nav list-unstyled flex-column flex-lg-row ms-auto">
+                <a href="#home" class="nav-link ">
+                  <li>Home</li>
+                </a>
+                <a href="#about" class="nav-link">
+                  <li>About</li>
+                </a>
+                <a href="#causes" class="nav-link">
+                  <li>Causes</li>
+                </a>
+                <a href="#blog" class="nav-link">
+                  <li>Blog</li>
+                </a>
+                <a href="#contact" class="nav-link">
+                  <li>Contact</li>
+                </a>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="text px-2 px-md-4">
+          <p>Raising Hope</p>
+          <h1>To the Homeless & Hopeless People</h1>
+          <button type="button" class="text-white rounded-pill joinbtn mt-3">Join Us <i
+              class="fa-solid fa-arrow-right"></i></button>
+          <button type="button" class="bg-transparent text-white mt-4 watchbtn">Watch the Video <i
+              class="fa-solid fa-play"></i></button>
+        </div>
+      </section>
+
+    </div>
+  </section>
+
+  <section class="container-fluid welcome-section" id="about">
+    <section class="px-3 container">
+      <div class="row">
+        <div class="form-position col-12 col-md-5 mt-4 mb-4 order-lg-last">
+          <div class="form-top d-flex px-2 pt-4 pb-3">
+            <i class="fa-solid fa-hand-holding-heart "></i>
+            <div class="form-top2">
+              <h2>$1,850,000</h2>
+              <p>FUND RAISED BY 1200 PEOPLE</p>
+            </div>
+          </div>
+          <div class="form-div">
+            <p class="mx-3 pt-5">DONATE NOW</p>
+            <h2 class="mx-3">Giving is the greatest act of grace</h2>
+            <form class="mx-3">
+              <label class="py-3">Your Full Name</label>
+              <input type="text" placeholder="Your Full Name" class="form-control py-3" />
+              <label class="py-3">Email Address</label>
+              <input type="email" placeholder="Email Address" class="form-control py-3" />
+              <label class="py-3">Select Causes: </label>
+              <select name="causes" id="causes" class="form-control py-3">
+                <option value="food">Food</option>
+                <option value="food">Medical Health</option>
+                <option value="food">Education</option>
+                <option value="food">Environment</option>
+                <option value="food">Shelter/Home</option>
+                <option value="food">Clothes</option>
+                <option value="food">Other</option>
+              </select>
+              <label class="py-3">Amount to Give</label>
+              <input type="text" placeholder="Amount to Give" class="form-control py-3" />
+              <input type="radio" />
+              <label class="py-3 pe-5 text-white">PayPal</label>
+              <input type="radio" />
+              <label class="py-3 pe-5 text-white">Credit Card</label>
+              <input type="radio" />
+              <label class="py-3 text-white">Payoneer</label>
+              <br />
+              <button type="submit" class="donatebtnform rounded mb-5 px-4 py-3">DONATE NOW</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="welcome col-12 col-md-7 mt-5" data-aos="fade-up">
+          <span>WELCOME TO LOVECARE CHARITY</span>
+          <h2>We Help Thousands of Children to Get Their Education</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind
+            texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+          </p>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+            paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+          <div class="circle-icon row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="d-flex justify-content-center flex-column align-items-center bg-div" id="welcomeDiv1" onmouseover="handleOnMouseOver()" onmouseout="handleOnMouseOut()">
+                <div class="icon mt-3">
+                  <i class="fa-solid fa-hands-holding-circle"></i>
+                </div>
+                <p class="mt-4" id="paraWelcome1">Start Donating</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class=" d-flex justify-content-center flex-column align-items-center mt-3 mt-md-0 bg-div" id="welcomeDiv2" onmouseover="handleMouseOver()" onmouseout="handleMouseOut()">
+                <div class="icon mt-3">
+                  <i class="fa-solid fa-people-roof"></i>
+                </div>
+                <p class="mt-4" id="paraWelcome2">Join Our Community</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mt-md-3 mt-lg-0">
+              <div class=" d-flex justify-content-center flex-column align-items-center bg-div mt-3 mt-md-0" id="welcomeDiv3" onmouseover="OnMouseOver()" onmouseout="OnMouseOut()">
+                <div class="icon mt-3">
+                  <i class="fa-solid fa-hand-holding-hand"></i>
+                </div>
+                <p class="mt-4" id="paraWelcome3">Be A Volunteer</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="container-fluid stat-back-img pb-4">
+    <section class="pt-5 container">
+      <div class=" pt-3">
+        <p class="pt-5" data-aos="fade-up">GREAT REVIEWS FOR OUR SERVICES
+        <p>
+        <h2 class="pt-5 pb-5" data-aos="fade-up">Technical Statistics</h2>
+
+        <div class="row mx-0 pb-5  text-center" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-3 cards px-0">
+            <div class="cards-inner m-3">
+              <i class="fa-solid fa-hand-holding-heart d-block"></i>
+              <h3 class="d-inline">$</h3>
+              <h3 class="counter d-inline">90</h3>
+              <h3 class="d-inline">M</h3>
+              <p class="pb-3 pt-2">FUND RAISED</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 cards px-0">
+            <div class="cards-inner m-3">
+              <i class="fa-solid fa-people-roof"></i>
+              <h3 class="counter">9,200</h3>
+              <p class="pb-3">COMPLETED PROJECTS</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 cards px-0">
+            <div class="cards-inner m-3">
+              <i class="fa-solid fa-hands-holding-circle"></i>
+              <h3 class="counter">5,800</h3>
+              <p class="pb-3">DONATION</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 cards px-0">
+            <div class="cards-inner m-3">
+              <i class="fa-solid fa-hand-holding-hand"></i>
+              <h3 class="counter">2,750</h3>
+              <p class="pb-3">VOLUNTEER</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="container-fluid pt-5 causes-backcolor" id="causes">
+    <section class="container causes-section">
+      <p class="text-center pt-3 para-causes" data-aos="fade-up">Our Causes</p>
+      <h2 class="text-center pt-3 pb-5 h2-causes" data-aos="fade-up">Our Causes & Help Us</h2>
+
+      <div class="owl-carousel owl-theme mycarousel1 pb-5" data-aos="fade-up">
+
+        <div class="item">
+          <div class="causes-items">
+            <div class="img-causes">
+              <img src="./images/cause-1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="text-causes p-2">
+              <span class="rounded-pill">Education</span>
+              <h4 class="pt-3 pb-3">Good Food to Homeless Children</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="goal-causes mb-3 p-2">
+              <div class="progress-bar-cause pt-3">
+                <span>70%</span>
+                <div class="progress mt-3">
+                  <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between pt-3 pb-3">
+                <p class="raised-para">Raised: <span class="raised-span">$9,800</span></p>
+                <p class="goal-para">Goal: <span class="goal-span">15,000</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="causes-items">
+            <div class="img-causes">
+              <img src="./images/cause-3.jpg.webp" alt="" class="img-fluid" />
+            </div>
+            <div class="text-causes p-2">
+              <span class="rounded-pill">Education</span>
+              <h4 class="pt-3 pb-3">Good Food to Homeless Children</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="goal-causes mb-3 p-2">
+              <div class="progress-bar-cause pt-3">
+                <span>70%</span>
+                <div class="progress mt-3">
+                  <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between pt-3 pb-3">
+                <p class="raised-para">Raised: <span class="raised-span">$9,800</span></p>
+                <p class="goal-para">Goal: <span class="goal-span">15,000</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="causes-items">
+            <div class="img-causes">
+              <img src="./images/cause-1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="text-causes p-2">
+              <span class="rounded-pill">Education</span>
+              <h4 class="pt-3 pb-3">Good Food to Homeless Children</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="goal-causes mb-3 p-2">
+              <div class="progress-bar-cause pt-3">
+                <span>70%</span>
+                <div class="progress mt-3">
+                  <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between pt-3 pb-3">
+                <p class="raised-para">Raised: <span class="raised-span">$9,800</span></p>
+                <p class="goal-para">Goal: <span class="goal-span">15,000</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="causes-items">
+            <div class="img-causes">
+              <img src="./images/cause-3.jpg.webp" alt="" class="img-fluid" />
+            </div>
+            <div class="text-causes p-2">
+              <span class="rounded-pill">Education</span>
+              <h4 class="pt-3 pb-3">Good Food to Homeless Children</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="goal-causes mb-3 p-2">
+              <div class="progress-bar-cause pt-3">
+                <span>70%</span>
+                <div class="progress mt-3">
+                  <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between pt-3 pb-3">
+                <p class="raised-para">Raised: <span class="raised-span">$9,800</span></p>
+                <p class="goal-para">Goal: <span class="goal-span">15,000</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="causes-items">
+            <div class="img-causes">
+              <img src="./images/cause-1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="text-causes p-2">
+              <span class="rounded-pill">Education</span>
+              <h4 class="pt-3 pb-3">Good Food to Homeless Children</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="goal-causes mb-3 p-2">
+              <div class="progress-bar-cause pt-3">
+                <span>70%</span>
+                <div class="progress mt-3">
+                  <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between pt-3 pb-3">
+                <p class="raised-para">Raised: <span class="raised-span">$9,800</span></p>
+                <p class="goal-para">Goal: <span class="goal-span">15,000</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="causes-items">
+            <div class="img-causes">
+              <img src="./images/cause-1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="text-causes p-2">
+              <span class="rounded-pill">Education</span>
+              <h4 class="pt-3 pb-3">Good Food to Homeless Children</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="goal-causes mb-3 p-2">
+              <div class="progress-bar-cause pt-3">
+                <span>70%</span>
+                <div class="progress mt-3">
+                  <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between pt-3 pb-3">
+                <p class="raised-para">Raised: <span class="raised-span">$9,800</span></p>
+                <p class="goal-para">Goal: <span class="goal-span">15,000</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </section>
+
+  <section class="container-fluid lovecare-div-bg pt-5 pb-5">
+    <section class="container text-center pt-5 pb-5 pb-xl-3 pt-xl-3 charity-div">
+      <span class="pt-5 pb-3" data-aos="fade-up">LOVECARE CHARITY</span>
+      <h2 class="pt-5 mt-2 mt-md-5 mb-3 mb-md-5 pb-5 " data-aos="fade-up">The Smallest Act of Kindness is Worth More Than the Grandest
+        Intention</h2>
+      <button type="button" class="btndonate px-5 py-3 rounded-pill" data-aos="fade-up">Donate Now!</button>
+      <button type="button" class="btnvol px-5 py-3 mt-3 rounded-pill" data-aos="fade-up">Become A Volunteer</button>
+    </section>
+  </section>
+
+  <section class="container-fluid vol-div pt-5">
+    <section class="container text-center vol-div-inner">
+      <span class="pt-5" data-aos="fade-up">MEET OUR VOLUNTEER</span>
+      <h2 class="pt-3 pb-5" data-aos="fade-up">Our Volunteer</h2>
+
+      <div class="row pt-4">
+        <div class="col-12 col-md-6 col-lg-3 pb-5"  data-aos="flip-right">
+          <div class="main-div-text pb-3">
+            <div class="img-div rounded-circle">
+              <img src="./images/staff-1.jpg" alt="" class="img-fluid rounded-circle" />
+            </div>
+            <div class="text-div-back pt-5 mt-5 pb-3">
+              <h3 class="pt-5">Jason Smith</h3>
+              <span class="">Volunteer</span>
+              <p class="pt-3">
+                <i class="fa-brands fa-twitter px-2"></i>
+                <i class="fa-brands fa-facebook-f px-2"></i>
+                <i class="fa-brands fa-google px-2"></i>
+                <i class="fa-brands fa-instagram px-2"></i>
+              </p>
+              <p class="para-text p-2">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 pb-5" data-aos="flip-right">
+          <div class="main-div-text pb-3">
+            <div class="img-div rounded-circle">
+              <img src="./images/staff-2.jpg" alt="" class="img-fluid rounded-circle" />
+            </div>
+            <div class="text-div-back pt-5 mt-5 pb-3">
+              <h3 class="pt-5">Anne Hayes</h3>
+              <span class="">Volunteer</span>
+              <p class="pt-3">
+                <i class="fa-brands fa-twitter px-2"></i>
+                <i class="fa-brands fa-facebook-f px-2"></i>
+                <i class="fa-brands fa-google px-2"></i>
+                <i class="fa-brands fa-instagram px-2"></i>
+              </p>
+              <p class="para-text p-2">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 pb-5" data-aos="flip-right">
+          <div class="main-div-text pb-3">
+            <div class="img-div rounded-circle">
+              <img src="./images/staff-3.jpg" alt="" class="img-fluid rounded-circle" />
+            </div>
+            <div class="text-div-back pt-5 mt-5 pb-3">
+              <h3 class="pt-5">Martha Smith</h3>
+              <span class="">Volunteer</span>
+              <p class="pt-3">
+                <i class="fa-brands fa-twitter px-2"></i>
+                <i class="fa-brands fa-facebook-f px-2"></i>
+                <i class="fa-brands fa-google px-2"></i>
+                <i class="fa-brands fa-instagram px-2"></i>
+              </p>
+              <p class="para-text p-2">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 pb-5" data-aos="flip-right">
+          <div class="main-div-text pb-3">
+            <div class="img-div rounded-circle">
+              <img src="./images/staff-4.jpg" alt="" class="img-fluid rounded-circle" />
+            </div>
+            <div class="text-div-back pt-5 mt-5 pb-3">
+              <h3 class="pt-5">Mike Tyson</h3>
+              <span class="">Volunteer</span>
+              <p class="pt-3">
+                <i class="fa-brands fa-twitter px-2"></i>
+                <i class="fa-brands fa-facebook-f px-2"></i>
+                <i class="fa-brands fa-google px-2"></i>
+                <i class="fa-brands fa-instagram px-2"></i>
+              </p>
+              <p class="para-text p-2">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="container-fluid pt-4 backimg-card-box pb-5">
+    <section class="container pt-4 testimonial-div">
+      <p class="text-center" data-aos="fade-up">TESTIMONIAL</p>
+      <h2 class="pt-4 text-center" data-aos="fade-up">What People Says</h2>
+
+      <div class="owl-carousel owl-theme mycarousel2 mt-5" data-aos="fade-up">
+        <div class="item card-box p-3">
+          <div class="card-box-inner mt-4">
+            <span class="">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+              there live the blind texts.</span>
+            <div class="row img-div-card-box pt-4 pb-4 mt-4">
+              <div class="col-5">
+                <img src="./images/person_1.jpg" alt="" class="img-fluid rounded-circle col-5" />
+              </div>
+              <div class="col-7 my-auto ps-3 card-box-div-text">
+                <h4>Roger Scott</h4>
+                <span>Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item card-box p-3 card-box-bg-color-md card-box-bg-color-lg">
+          <div class="card-box-inner mt-4">
+            <span class="">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+              there live the blind texts.</span>
+            <div class="row img-div-card-box pt-4 pb-4 mt-4">
+              <div class="col-5">
+                <img src="./images/person_2.jpg" alt="" class="img-fluid rounded-circle col-5" />
+              </div>
+              <div class="col-7 my-auto ps-3 card-box-div-text">
+                <h4>Roger Scott</h4>
+                <span>Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item card-box p-3">
+          <div class="card-box-inner mt-4">
+            <span class="">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+              there live the blind texts.</span>
+            <div class="row img-div-card-box pt-4 pb-4 mt-4">
+              <div class="col-5">
+                <img src="./images/person_3.jpg" alt="" class="img-fluid rounded-circle col-5" />
+              </div>
+              <div class="col-7 my-auto ps-3 card-box-div-text">
+                <h4>Roger Scott</h4>
+                <span>Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item card-box p-3 card-box-bg-color-md">
+          <div class="card-box-inner mt-4">
+            <span class="">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+              there live the blind texts.</span>
+            <div class="row img-div-card-box pt-4 pb-4 mt-4">
+              <div class="col-5">
+                <img src="./images/person_1.jpg" alt="" class="img-fluid rounded-circle col-5" />
+              </div>
+              <div class="col-7 my-auto ps-3 card-box-div-text">
+                <h4>Roger Scott</h4>
+                <span>Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item card-box p-3 card-box-bg-color-lg">
+          <div class="card-box-inner mt-4">
+            <span class="">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+              there live the blind texts.</span>
+            <div class="row img-div-card-box pt-4 pb-4 mt-4">
+              <div class="col-5">
+                <img src="./images/person_2.jpg" alt="" class="img-fluid rounded-circle col-5" />
+              </div>
+              <div class="col-7 my-auto ps-3 card-box-div-text">
+                <h4>Roger Scott</h4>
+                <span>Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item card-box p-3 card-box-bg-color-md">
+          <div class="card-box-inner mt-4">
+            <span class="">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+              there live the blind texts.</span>
+            <div class="row img-div-card-box pt-4 pb-4 mt-4">
+              <div class="col-5">
+                <img src="./images/person_3.jpg" alt="" class="img-fluid rounded-circle col-5" />
+              </div>
+              <div class="col-7 my-auto ps-3 card-box-div-text">
+                <h4>Roger Scott</h4>
+                <span>Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="container-fluid do-care-backcolor">
+    <section class="container">
+      <div class="row">
+        <div class="img-div-children col-12 col-md-6">
+          <img src="./images/about.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="text-div-about col-12 col-md-6 pt-3 pb-5 my-auto" data-aos="fade-up">
+          <span>WELCOME TO LOVECARE NON-PROFIT CHARITY</span>
+          <h2 class="pt-3 pb-3">Do You Care Our Children?</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean.</p>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+            paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+          <button type="button" class="px-4 py-3 rounded-pill">Be A Volunteer</button>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="container-fluid blog-backcolor pt-4" id="blog">
+    <section class="container">
+      <p class="para-blog text-center pt-3" data-aos="fade-up">OUR BLOG</p>
+      <h2 class="h2-blog text-center pt-3 pb-4" data-aos="fade-up">Recent From Blog</h2>
+
+      <div class="row" data-aos="fade-up">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="blog-inner-div">
+            <div class="blog-div-img">
+              <img src="./images/image_1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="position-blog-div text-center mx-3 p-3">
+              <p class="my-auto"><i class="fa-solid fa-user pe-1"></i><span> ADMIN </span><i
+                  class="fa-solid fa-calendar-days ps-1 pe-1"></i><span> FEB. 22 2021 </span><i
+                  class="fa-solid fa-comment ps-1 pe-1"></i> 3 COMMENTS</p>
+            </div>
+            <div class="text-div-blog text-center pt-5 mb-5">
+              <h3 class="pt-2 pb-3">Give Hope to the People Need Most</h3>
+              <p class="pb-3">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                language ocean.</p>
+              <button type="button" class="mb-5 px-4 py-3 read-button rounded-pill">Read More <i
+                  class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="blog-inner-div">
+            <div class="blog-div-img">
+              <img src="./images/image_2.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="position-blog-div text-center mx-3 p-3">
+              <p class="my-auto"><i class="fa-solid fa-user pe-1"></i><span> ADMIN </span><i
+                  class="fa-solid fa-calendar-days ps-1 pe-1"></i><span> FEB. 22 2021 </span><i
+                  class="fa-solid fa-comment ps-1 pe-1"></i> 3 COMMENTS</p>
+            </div>
+            <div class="text-div-blog text-center pt-5 mb-5">
+              <h3 class="pt-2 pb-3">Give Hope to the People Need Most</h3>
+              <p class="pb-3">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                language ocean.</p>
+              <button type="button" class="mb-5 px-4 py-3 read-button rounded-pill">Read More <i
+                  class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="blog-inner-div">
+            <div class="blog-div-img">
+              <img src="./images/image_1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="position-blog-div text-center mx-3 p-3">
+              <p class="my-auto"><i class="fa-solid fa-user pe-1"></i><span> ADMIN </span><i
+                  class="fa-solid fa-calendar-days ps-1 pe-1"></i><span> FEB. 22 2021 </span><i
+                  class="fa-solid fa-comment ps-1 pe-1"></i> 3 COMMENTS</p>
+            </div>
+            <div class="text-div-blog text-center pt-5 mb-5">
+              <h3 class="pt-2 pb-3">Give Hope to the People Need Most</h3>
+              <p class="pb-3">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                language ocean.</p>
+              <button type="button" class="mb-5 px-4 py-3 read-button rounded-pill">Read More <i
+                  class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="container-fluid footer-back-color pt-5 pb-5" id="contact">
+    <section class="container pt-3 pb-3">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="logo ps-2 pt-2">
+            <h2 class="my-auto fw-bold">LOVE<span>CARE</span></h2>
+            <p class="text-start">CHARITY THEME</p>
+          </div>
+          <p class="text-white pt-3">Far far away, behind the word mountains, far from the countries Vokalia and
+            Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean.</p>
+          <p class="footer-para-icon">
+            <i class="fa-brands fa-twitter px-2"></i>
+            <i class="fa-brands fa-facebook-f px-2"></i>
+            <i class="fa-brands fa-instagram px-2"></i>
+          </p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <h3 class="text-white">Recent Posts</h3>
+          <div class="row pt-5">
+            <div class="col-4">
+              <img src="./images/image_1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-8">
+              <span class="calender-footer"><i class="fa-solid fa-calendar-days"></i> Feb. 22, 2021 <i
+                  class="fa-solid fa-user"></i> Admin</span>
+              <p class="text-white">Ecological System Responsible for Green Energy</p>
+            </div>
+
+            <div class="col-4">
+              <img src="./images/image_2.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-8">
+              <span class="calender-footer"><i class="fa-solid fa-calendar-days"></i> Feb. 22, 2021 <i
+                  class="fa-solid fa-user"></i> Admin</span>
+              <p class="text-white">Ecological System Responsible for Green Energy</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <h3 class="text-white">Have a Questions?</h3>
+          <div class="row pt-5">
+            <div class="col-3 text-center">
+              <i class="fa-solid fa-map"></i>
+            </div>
+            <div class="col-9">
+              <p class="text-white">203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-3 text-center">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="col-9">
+              <p class="text-white"> +2 392 3929 210</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-3 text-center">
+              <i class="fa-brands fa-telegram"></i>
+            </div>
+            <div class="col-9">
+              <p class="text-white"> info@yourdomain.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="container-fluid copyright-footer py-5">
+    <section class="container">
+      <div class="">
+        <p class="text-white">Copyright ©2024 All rights reserved | This template is made with <i
+            class="fa-solid fa-heart"></i> by Colorlib</p>
+      </div>
+    </section>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/counterup2/2.0.2/index.min.js
+    "></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="./JavaScript/script.js"></script>
+</body>
+
+</html>
